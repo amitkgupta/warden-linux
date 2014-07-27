@@ -5,9 +5,9 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/dotcloud/docker/archive"
-	"github.com/dotcloud/docker/image"
-	"github.com/dotcloud/docker/registry"
+	"github.com/docker/docker/archive"
+	"github.com/docker/docker/image"
+	"github.com/docker/docker/registry"
 
 	"github.com/cloudfoundry-incubator/warden-linux/linux_backend/container_pool/fake_graph"
 	. "github.com/cloudfoundry-incubator/warden-linux/linux_backend/container_pool/repository_fetcher"
